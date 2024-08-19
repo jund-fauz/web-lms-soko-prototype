@@ -1,7 +1,7 @@
 import FlexContainer from './FlexContainer'
 import Line from './Line'
 
-export default function SocialMedia({ name, content = [''] }) {
+export default function SocialMedia({ name = '', content = [''] }) {
 	return (
 		<FlexContainer
 			className='justify-end items-center'

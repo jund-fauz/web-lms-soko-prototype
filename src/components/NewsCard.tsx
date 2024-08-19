@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import FlexContainer from './FlexContainer'
 
-export default function NewsCard({ imageNumber, title, desc }) {
+export default function NewsCard({ imageNumber = 1, title = '', desc = '' }) {
 	const textWidth = { width: '80%' }
 	const [opacity, setOpacity] = useState('100%')
     return (
