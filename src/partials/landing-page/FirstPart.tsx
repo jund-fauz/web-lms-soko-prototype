@@ -23,6 +23,8 @@ export default function FirstPart() {
 				className='flex justify-end'
 				style={{ gridArea: 'image' }}
 				data-aos='fade-right'
+				data-aos-once='true'
+				data-aos-duration='2000'
 			>
 				<img src='/images/pic_1.jpg' alt='Mabes Sobat Lutfhi' width='50%' />
 			</div>
@@ -30,6 +32,8 @@ export default function FirstPart() {
 				className='flex gap-4 flex-col'
 				style={{ gridArea: 'text' }}
 				data-aos='fade-left'
+				data-aos-once='true'
+				data-aos-duration='2000'
 			>
 				<>
 					<Title

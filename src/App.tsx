@@ -1,3 +1,4 @@
+import Carousel from './components/carousel/Carousel'
 import Navbar from './partials/Navbar'
 import FirstPart from './partials/landing-page/FirstPart'
 import SecondPart from './partials/landing-page/SecondPart'
@@ -7,6 +8,9 @@ function App() {
 	return (
 		<>
 			<Navbar />
+			<Carousel>
+
+			</Carousel>
 			<FirstPart />
 			<SecondPart />
 			<ThirdPart />
